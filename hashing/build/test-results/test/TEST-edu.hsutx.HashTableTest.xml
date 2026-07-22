@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.hsutx.HashTableTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-10-01T23:49:08" hostname="baygel-IdeaPad-5-2-in-1-14AHP9" time="0.017">
+  <properties/>
+  <testcase name="testPutAndGet()" classname="edu.hsutx.HashTableTest" time="0.012"/>
+  <testcase name="testGetNonExistentKey()" classname="edu.hsutx.HashTableTest" time="0.001"/>
+  <testcase name="testRemove()" classname="edu.hsutx.HashTableTest" time="0.001"/>
+  <testcase name="testCollisions()" classname="edu.hsutx.HashTableTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
