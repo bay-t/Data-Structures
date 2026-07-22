@@ -1,0 +1,49 @@
+This is what I originally had for rotateLeft (rotate right mirrored)
+I put it together without any pseudocode or help, its how I understand a rotate happening.
+
+The few problems I see are:
+1.) It is establishing and rotating off the grand parent, not all scenario's need this
+2.) It can't handle a zigzag, fixInsert was handling that in case 2
+3.) This is tailored for fixInsert straight line specifically.
+
+    private void rotateLeft(Node node) {
+        // establish easier naming conventions because
+        // each node points to another node
+        // and the other node points back to node
+        Node grand = node.parent.parent;
+
+        //make sibling node
+        Node sibling = node.parent.left;
+
+        // set node's sibling to grandparents child
+        grand.right = sibling;
+
+        // set grandparents child to node's sibling
+        // so that node no longer has a sibling
+        if (sibling != null) {
+            sibling.parent = grand;
+        }
+
+        // nodes sibling is now grandparent
+        node.parent.left = grand;
+
+        // set node's parent's parent to
+        // node's grand parent
+        node.parent.parent = grand.parent;
+
+        // if grand was originally root
+        if (grand.parent == null) {
+            root = node.parent;
+        }
+
+        // see which child was the grandparent
+        // set that child to be node's parent
+        else if (grand == grand.parent.left) {
+            grand.parent.left = node.parent;
+        } else {
+            grand.parent.right = node.parent;
+        }
+
+        // point grandparents parent back to node's parent
+        grand.parent = node.parent;
+    }
