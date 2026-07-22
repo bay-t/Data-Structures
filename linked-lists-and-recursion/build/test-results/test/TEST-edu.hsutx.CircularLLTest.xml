@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.hsutx.CircularLLTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2025-09-17T23:55:24" hostname="baygel-IdeaPad-5-2-in-1-14AHP9" time="0.024">
+  <properties/>
+  <testcase name="testAddLast_AddMultipleElements_ShouldAddInCorrectOrder()" classname="edu.hsutx.CircularLLTest" time="0.01"/>
+  <testcase name="testFirst_OnEmptyList_ShouldReturnNull()" classname="edu.hsutx.CircularLLTest" time="0.001"/>
+  <testcase name="testAddLast_OnEmptyList_ShouldAddElement()" classname="edu.hsutx.CircularLLTest" time="0.001"/>
+  <testcase name="testRemoveFirst_OnSingleElementList_ShouldEmptyList()" classname="edu.hsutx.CircularLLTest" time="0.001"/>
+  <testcase name="testAddFirst_OnEmptyList_ShouldAddElement()" classname="edu.hsutx.CircularLLTest" time="0.001"/>
+  <testcase name="testRemoveFirst_OnNonEmptyList_ShouldRemoveAndReturnFirstElement()" classname="edu.hsutx.CircularLLTest" time="0.001"/>
+  <testcase name="testIsEmpty_OnNewList_ShouldReturnTrue()" classname="edu.hsutx.CircularLLTest" time="0.001"/>
+  <testcase name="testRemoveFirst_OnEmptyList_ShouldReturnNull()" classname="edu.hsutx.CircularLLTest" time="0.001"/>
+  <testcase name="testRotate_OnEmptyList_ShouldDoNothing()" classname="edu.hsutx.CircularLLTest" time="0.001"/>
+  <testcase name="testRotate_OnNonEmptyList_ShouldRotateElements()" classname="edu.hsutx.CircularLLTest" time="0.001"/>
+  <testcase name="testAddFirst_AddMultipleElements_ShouldAddInCorrectOrder()" classname="edu.hsutx.CircularLLTest" time="0.0"/>
+  <testcase name="testFirst_OnNonEmptyList_ShouldReturnFirstElement()" classname="edu.hsutx.CircularLLTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
