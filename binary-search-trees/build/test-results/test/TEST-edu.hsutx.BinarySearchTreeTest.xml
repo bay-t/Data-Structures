@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.hsutx.BinarySearchTreeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-09-23T22:54:18" hostname="baygel-IdeaPad-5-2-in-1-14AHP9" time="0.017">
+  <properties/>
+  <testcase name="testDeleteTwoChildren()" classname="edu.hsutx.BinarySearchTreeTest" time="0.017"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
